@@ -4,17 +4,14 @@ import com.techreturners.types.ScalaTypes
 
 object AppDemo {
 
+  // In Scala much like Java, C#, C++ we can define a
+  // main method which is where the application will
+  // begin running:
+  // https://docs.scala-lang.org/tour/basics.html
   def main(args: Array[String]): Unit = {
     println("Sample Scala Demo App Reviewing the Scala Syntax\n")
-    println("======")
-    println("Reviewing types - You can see these in the ScalaTypes.scala file")
-    println("======")
-    println(s"Here's an integer: ${ScalaTypes.anInteger}")
-    println(s"Here's a boolean: ${ScalaTypes.aBoolean}")
-    println(s"Next you'll see us print a collection of variables with all different types")
-    ScalaTypes.list.foreach(element => println(s"Value '$element' has type '${element.getClass}'"))
-    println(s"Scala understands how to infer the type of a variable. " +
-      s"Here's the type of an inferred variable: ${ScalaTypes.anInferredString.getClass}")
+
+    ScalaTypes.printTypes()
   }
 
 

@@ -22,11 +22,23 @@ object ScalaTypes {
   // Scala also has the type 'Any' which is the supertype of all types
   // That means we can have a collection that can contain multiple different
   // types (a bit like you can do with JavaScript)
-  val list: List[Any] = List(
+  val listOfValues: List[Any] = List(
     "a string",
     732,  // an integer
     'c',  // a character
     true, // a boolean value
     9.76 // a float value
   )
+
+  def printTypes(): Unit = {
+    println("======")
+    println("Reviewing types - You can see these in the ScalaTypes.scala file")
+    println("======")
+    println(s"Here's an integer: $anInteger")
+    println(s"Here's a boolean: $aBoolean")
+    println(s"Next you'll see us print a collection of variables with all different types")
+    listOfValues.foreach(element => println(s"Value '$element' has type '${element.getClass}'"))
+    println(s"Scala understands how to infer the type of a variable. " +
+      s"Here's the type of an inferred variable: ${anInferredString.getClass}")
+  }
 }
