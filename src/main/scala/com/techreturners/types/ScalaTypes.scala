@@ -9,8 +9,8 @@ object ScalaTypes {
   val anInteger: Int = 7
   val aBoolean: Boolean = false
 
-  // Declaring variables as 'var' means the CAN be
-  // changed
+  // Declaring variables as 'var' means
+  // they CAN be changed
   var anotherInteger: Int = 6
   anotherInteger = 28
 
