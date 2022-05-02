@@ -26,6 +26,9 @@ object ScalaFunctionsAndMethods {
   }
 
 
+  // Declaring a method as returning a 'Unit' means there is nothing to
+  // return - Other languages would utilise the 'void' keyword to define
+  // a method that does a job but does not return a result
   def printInfo(): Unit = {
     println("\n======")
     println("Reviewing scala functions and methods - You can see these in the ScalaFunctionsAndMethods.scala file")
