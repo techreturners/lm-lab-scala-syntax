@@ -19,4 +19,4 @@ sbt run
 Alternatively you can run using your Integrated Development Environment (IDE). For example in IntelliJ you can perform the following:
 
 * Right click the [AppDemo](src/main/scala/com/techreturners/AppDemo.scala) file
-* Choose **Run 'AppDemo'
+* Choose **Run 'AppDemo'**
