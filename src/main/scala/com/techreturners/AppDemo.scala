@@ -1,5 +1,6 @@
 package com.techreturners
 
+import com.techreturners.functionsandmethods.ScalaFunctionsAndMethods
 import com.techreturners.types.ScalaTypes
 
 object AppDemo {
@@ -9,9 +10,10 @@ object AppDemo {
   // begin running:
   // https://docs.scala-lang.org/tour/basics.html
   def main(args: Array[String]): Unit = {
-    println("Sample Scala Demo App Reviewing the Scala Syntax\n")
+    println("Sample Scala Demo App Reviewing the Scala Syntax")
 
-    ScalaTypes.printTypes()
+    ScalaTypes.printInfo()
+    ScalaFunctionsAndMethods.printInfo()
   }
 
 

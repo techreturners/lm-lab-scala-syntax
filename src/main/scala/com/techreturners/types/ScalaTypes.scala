@@ -30,8 +30,8 @@ object ScalaTypes {
     9.76 // a float value
   )
 
-  def printTypes(): Unit = {
-    println("======")
+  def printInfo(): Unit = {
+    println("\n======")
     println("Reviewing types - You can see these in the ScalaTypes.scala file")
     println("======")
     println(s"Here's an integer: $anInteger")
