@@ -25,6 +25,9 @@ object ScalaFunctionsAndMethods {
     }
   }
 
+  // You can also define default values for variables passed to a method
+  def doSomeMethodWithDefaultValue(name: String = "there") = s"Hello $name"
+
 
   // Declaring a method as returning a 'Unit' means there is nothing to
   // return - Other languages would utilise the 'void' keyword to define
@@ -36,7 +39,11 @@ object ScalaFunctionsAndMethods {
 
     println(s"Here's a named function being called. The result of calling doSomeAdding is: ${doSomeAdding(7, 10)}")
     println(s"Here's a method being called. The result of calling doSomeMultiplication is: ${doSomeMultiplication(7, 10)}")
+
     println(s"Here's a multi-line method being called. The result of calling " +
       s"doSomeMethodWithMultipleLines is '${doSomeMethodWithMultipleLines("Marge")}'")
+
+    println(s"Here's a method being called where the parameter has a default value. The result of calling " +
+      s"doSomeMethodWithDefaultValue is '${doSomeMethodWithDefaultValue()}'")
   }
 }
