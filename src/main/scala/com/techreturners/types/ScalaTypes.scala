@@ -9,7 +9,7 @@ object ScalaTypes {
 
   // Scala also has the type 'Any' which is the supertype of all types
   // That means we can have a collection that can contain multiple different
-  // types (a bit like you can do with JavaScript
+  // types (a bit like you can do with JavaScript)
   val list: List[Any] = List(
     "a string",
     732,  // an integer
