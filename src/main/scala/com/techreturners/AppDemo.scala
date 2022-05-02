@@ -12,7 +12,9 @@ object AppDemo {
     println(s"Here's an integer: ${ScalaTypes.anInteger}")
     println(s"Here's a boolean: ${ScalaTypes.aBoolean}")
     println(s"Next you'll see us print a collection of variables with all different types")
-    ScalaTypes.list.foreach(element => println(s"Value '${element}' has type '${element.getClass}'"))
+    ScalaTypes.list.foreach(element => println(s"Value '$element' has type '${element.getClass}'"))
+    println(s"Scala understands how to infer the type of a variable. " +
+      s"Here's the type of an inferred variable: ${ScalaTypes.anInferredString.getClass}")
   }
 
 
