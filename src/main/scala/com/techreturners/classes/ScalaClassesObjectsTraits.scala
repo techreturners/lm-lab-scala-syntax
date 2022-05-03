@@ -44,6 +44,16 @@ object ScalaClassesObjectsTraits {
     // but when we compare them it will compare the values
     println(s"Now testing if the two objects as case classes are equal: ${userOneSameValuesAsCaseClass == userTwoSameValuesAsCaseClass }")
 
+    // Here we see the use of a Scala object.
+    // Notice we create two variables
+    // but even though they are separate variables
+    // when we call the function on the second object we
+    // get an updated count
+    val userAsObject = UserObject
+    val secondUserAsObject = UserObject
+    println(s"Getting count from an object: ${userAsObject.incrementAndGetCount()}")
+    println(s"Getting count from a different object: ${secondUserAsObject.incrementAndGetCount()}")
+
   }
 
 }
