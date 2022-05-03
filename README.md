@@ -20,3 +20,15 @@ Alternatively you can run using your Integrated Development Environment (IDE). F
 
 * Right click the [AppDemo](src/main/scala/com/techreturners/AppDemo.scala) file
 * Choose **Run 'AppDemo'**
+
+## Structure
+
+Much of the examples here can be explored in further detail on the Scala Tour
+
+https://docs.scala-lang.org/tour/tour-of-scala.html
+
+1. [Types](src/main/scala/com/techreturners/types/ScalaTypes.scala)
+2. [Functions and Methods](src/main/scala/com/techreturners/functionsandmethods/ScalaFunctionsAndMethods.scala)
+3. [Classes, Objects and Traits](src/main/scala/com/techreturners/classes/ScalaClassesObjectsTraits.scala)
+4. [Collections]()
+5. [Currying]()
