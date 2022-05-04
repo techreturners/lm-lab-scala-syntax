@@ -31,6 +31,6 @@ https://docs.scala-lang.org/tour/tour-of-scala.html
 
 1. [Types](src/main/scala/com/techreturners/types/ScalaTypes.scala)
 2. [Functions and Methods](src/main/scala/com/techreturners/functionsandmethods/ScalaFunctionsAndMethods.scala)
-3. [Classes, Objects and Traits](src/main/scala/com/techreturners/classes/ScalaClassesObjectsTraits.scala)
+3. [Classes and Objects](src/main/scala/com/techreturners/classes/ScalaClassesObjects.scala)
 4. [Collections](src/main/scala/com/techreturners/collections/ScalaCollections.scala)
 5. [Currying](src/main/scala/com/techreturners/currying/ScalaCurrying.scala)

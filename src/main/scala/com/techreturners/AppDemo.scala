@@ -1,6 +1,6 @@
 package com.techreturners
 
-import com.techreturners.classes.ScalaClassesObjectsTraits
+import com.techreturners.classes.ScalaClassesObjects
 import com.techreturners.collections.ScalaCollections
 import com.techreturners.currying.ScalaCurrying
 import com.techreturners.functionsandmethods.ScalaFunctionsAndMethods
@@ -17,7 +17,7 @@ object AppDemo {
 
     ScalaTypes.printInfo()
     ScalaFunctionsAndMethods.printInfo()
-    ScalaClassesObjectsTraits.printInfo()
+    ScalaClassesObjects.printInfo()
     ScalaCollections.printInfo()
     ScalaCurrying.printInfo()
   }

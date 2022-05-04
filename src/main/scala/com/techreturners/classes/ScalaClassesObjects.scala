@@ -2,7 +2,7 @@ package com.techreturners.classes
 
 // Much of the examples here are covered during the Scala tour on classes
 // https://docs.scala-lang.org/tour/classes.html
-object ScalaClassesObjectsTraits {
+object ScalaClassesObjects {
 
   def printInfo(): Unit = {
     println("\n======")
