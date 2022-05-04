@@ -4,6 +4,7 @@ import com.techreturners.classes.ScalaClassesObjects
 import com.techreturners.collections.ScalaCollections
 import com.techreturners.currying.ScalaCurrying
 import com.techreturners.functionsandmethods.ScalaFunctionsAndMethods
+import com.techreturners.patternmatching.ScalaPatternMatching
 import com.techreturners.types.ScalaTypes
 
 object AppDemo {
@@ -19,6 +20,7 @@ object AppDemo {
     ScalaFunctionsAndMethods.printInfo()
     ScalaClassesObjects.printInfo()
     ScalaCollections.printInfo()
+    ScalaPatternMatching.printInfo()
     ScalaCurrying.printInfo()
   }
 
