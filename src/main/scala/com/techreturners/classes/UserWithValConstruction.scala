@@ -9,7 +9,7 @@ package com.techreturners.classes
 // u.id = 2
 class UserWithValConstruction(val id: Long, val userName: String, enemy: String = "Scar") {
 
-  def printUsername : String = s"Username: $userName"
+  def displayUsername : String = s"Username: $userName"
 
   // Overriding the default toString method
   override def toString: String =

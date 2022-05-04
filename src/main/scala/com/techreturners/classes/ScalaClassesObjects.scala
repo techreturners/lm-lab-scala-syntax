@@ -10,7 +10,7 @@ object ScalaClassesObjects {
     println("======")
 
     val userOne = new UserWithVarConstruction(id = 1, "mufasa")
-    println(s"Calling method from user class.... ${userOne.printUsername}")
+    println(s"Calling method from user class.... ${userOne.displayUsername}")
     // Because we utilised the 'var' keyword for the instance variables
     // they are publicly accessible and we can publicly change them
     userOne.id = 28

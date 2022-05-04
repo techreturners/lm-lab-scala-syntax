@@ -9,6 +9,6 @@ package com.techreturners.classes
 // u.id = 2
 class UserWithVarConstruction(var id: Long, var userName: String) {
 
-  def printUsername : String = s"Username: $userName"
+  def displayUsername : String = s"Username: $userName"
 
 }
