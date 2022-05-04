@@ -37,6 +37,7 @@ object ScalaCurrying {
     // change the rates if and when they change.
     println(s"Here's the price WITH currying: ${calculatePriceWithServiceChargeAndVatApplied(10)}")
     println(s"Here's another price WITH currying: ${calculatePriceWithServiceChargeAndVatApplied(20)}")
+    println(s"Here's the price WITH currying in full verbose way: ${calculatePriceWithCurrying(0.2)(10)(10)}")
     println(s"And we can still use the original version if we need precise access: ${calculatePriceWithCurrying(0.2)(10)(10)}")
     println(s"And we could even try it with a different service charge: ${calculatePriceWithVatApplied(20)(10)}")
 
