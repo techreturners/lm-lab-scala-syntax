@@ -6,6 +6,7 @@ package com.techreturners.collections
 object ScalaCollections {
 
   // For example here is a Scala list
+  // Immutable by default, need to use a mutable list to add things later
   val studentNames: List[String] = List("Rohan", "Andreas", "Rob", "John")
 
   // Scala also has a concept of Set's where duplicates are prevented
@@ -33,7 +34,11 @@ object ScalaCollections {
     // pass a function to filter in order to filter out.
     // Here you see we pass the 'matchesAndreas' method to the 'filter' method
     val filteredNames = studentNames.filter(matchesAndreas)
-    println(s"Filtered names after passing a function to filter: $filteredNames")
+    println(s"Filtered names after passing a method to filter: $filteredNames")
+
+    // Or another example using an anonymous function
+    val filteredNamesWithAnonymous = studentNames.filter(name => name != "John")
+    println(s"Filtered names after passing an anonymous function: $filteredNamesWithAnonymous")
   }
 
 }
